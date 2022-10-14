@@ -41,7 +41,7 @@ const modeloPelicula = (pelicula, diaEstreno) => {
         <div class="container_title">
             <h4 class="tituloPeli">${pelicula.nombre}</h4>
             <span class="diaEstreno">Dia Estreno : ${diaEstreno}</span>
-            <img src="view/images/boton-de-play.png" alt="iconPlay" class="imgIconPlay">
+            <img src="./images/boton-de-play.png" alt="iconPlay" class="imgIconPlay">
         </div>
     </div>`
 }
