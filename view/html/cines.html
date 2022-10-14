@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/logo.png">
+    <link rel="stylesheet" href="../css/cines.css">
+    <link rel="stylesheet" href="../css/header_footer.css">
+    <script src="/services/httpCines.js"></script>
+    <title>Cines</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="../images/logo.png" alt="logo_Cinesstres" class="img_logo">
+            <a href="/index.html">
+                <h2>CINESTRESS</h2>
+            </a>
+        </div>
+        <nav>
+            <a href="/index.html" class="a_inicio">INICIO</a>
+            <a href="cines.html" class="nav_cines">CINES</a>
+            <a href="promociones.html">PROMOCIONES</a>
+            <a href="dulceria.html">DULCERIA</a>
+        </nav>
+        <a href="" class="phone-call"><img src="../images/phone-call.png" alt="phone-call" ></a>
+        <div class="login">
+            <a href="login.html" class="iniciar_sesion">Iniciar Sesión</a>
+            <a href="register.html" class="registrate">Registrate</a>
+        </div>
+    </header>
+    <main>
+        <div class="seleccionar_distrito">
+            <label for="">Por Distrito: </label>
+            <select name="distrito" id="distrito" onchange="getCineBySelection()">
+                <!-- Aqui iran las opciones de distritos-->
+            </select>
+        </div>
+        <div class="cine">
+            <!-- Aqui ira todo el contenido del cine-->
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="logo_white">
+                <img src="../images/logo_white.png" alt="logo_Cinesstres" class="img_logo_white">
+                <a href="/index.html">
+                    <h2>CINESTRESS</h2>
+                </a>
+            </div>
+            <div class="footer_column">
+                <label for="">Por que elegir Cinesnestres</label>
+                <a href="">Escoge Cinestress</a>
+                <a href="">Confianza y Seguridad</a>
+                <a href="">Actualizaciones</a>
+                <a href="">Facil y Rapido</a>
+                <a href="">Planes</a>
+            </div>
+            <div class="footer_column">
+                <label for="">Nosotros</label>
+                <a href="">Misión</a>
+                <a href="">Visión</a>
+                <a href="">Valores</a>
+            </div>
+            <div class="footer_column">
+                <label for="">Convenios</label>
+                <a href="">TechNews</a>
+                <a href="">Cinestress Co.</a>
+                <a href="">Reportes Co.</a>
+                <a href="">Facturing Co.</a>
+                <a href="">Health-App</a>
+                <a href=""></a>
+            </div>
+            <div class="footer_column">
+                <label for="">Redes Sociales</label>
+                <a href=""><img src="../images/redes_sociales/facebook.png" alt="">Facebook</a>
+                <a href=""><img src="../images/redes_sociales/instagram.png" alt="">Instagram</a>
+                <a href=""><img src="../images/redes_sociales/twitter.png" alt="">Twitter</a>
+                <a href=""><img src="../images/redes_sociales/whatsapp.png" alt="">Whatsapp</a>
+                <a href=""><img src="../images/redes_sociales/tiktok.png" alt="">Tiktok</a>
+            </div>
+        </div>
+        <hr>
+        <div class="copyr">
+            <p>©Copyrigth Cinestress 2022 - </p>
+        </div>
+    </footer>
+</body>
+
+</html>

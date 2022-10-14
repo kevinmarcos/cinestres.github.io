@@ -1,0 +1,46 @@
+.nav_cines {
+    color: white;
+    border-bottom: 5px solid white;
+}
+
+/*----------------------------------------MAIN---------------------------------------*/
+
+.seleccionar_distrito>label {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.seleccionar_distrito{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+select {
+    background-color: ghostwhite;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+
+}
+
+.imgCine{
+    width: 500px;
+}
+
+.cine{
+    text-align: center;
+    color: aliceblue;
+}
+
+.containerCine{
+    display: inline-block;
+    margin: 20px 50px 30px 50px;
+}
+
+.containerCine > h4{
+    font-size: 20px;
+    
+}

@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    color: white;
+    background-color: black;
+    
+}
+
+main{
+    margin: auto;
+    width: 600px;
+    margin-top: 30px;
+}
+
+/*--------------------------Logo------------------------------*/
+.logo{
+    display: flex;
+    width: max-content;
+    margin: auto;
+
+}
+
+.logo>a{
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.img_logo{
+    width: 60px;
+    height: 60px;
+}
+
+div{
+    width: max-content;
+    margin: auto;
+}
+
+h3{
+    width: max-content;
+    margin: auto;
+    padding: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    width: 400px;
+    text-align: center;   
+    margin-bottom: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.correo_electronico>div{
+    font-size: 23px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 7px 0;
+}
+
+.correo_electronico>div>input{
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-size: 15px;   
+    width: 300px;
+    background: #dbffff; 
+    border-radius: 15px;
+    padding: 10px; 
+    border: 2px solid #c7d7ff
+}
+
+.correo_electronico>div>input:hover{
+    background-color: rgb(225, 241, 248);
+}
+
+.correo_electronico>input{
+    font-size: 25px;
+}
+
+.submit{
+    display: flex;
+    height: 40px;
+    display: inline;
+    margin-top: 10px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    margin-bottom: 20px;
+    width: 100%;;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.submit:hover{
+    
+    background-color: rgb(97, 96, 96);
+    cursor: pointer;
+}
+
+.ingresar_tambien img{
+    width: 20px;
+}
+
+.ingresar_tambien>a{
+    display: block;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 30px;
+    text-align: center;
+    width: 300px;
+    height: 35px;
+    margin: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.ingresar_tambien span{ 
+    justify-content: center;
+    color: white;
+    
+}
+
+.register{
+    padding: 20px;
+}
+.register > span{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.register a{
+    color: cyan;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
