@@ -12,7 +12,10 @@ const cargarCines = async () => {
                 <option value="${cine.distrito}">${cine.distrito}</option>`
                 cines += getCines(cine)
             });
-            document.querySelector('#distrito').innerHTML = opcionesDistritos;
+            document.addEventListener('DOMContentLoaded', function () {
+                
+                document.querySelector('#distrito').innerHTML = opcionesDistritos;
+            })
             document.querySelector('.cine').innerHTML = cines;
         }
     } catch (error) {
